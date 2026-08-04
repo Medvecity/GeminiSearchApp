@@ -10,6 +10,10 @@ A lightweight, hotkey-activated Windows search overlay powered by Google's Gemin
 *   **Lightning Fast File Search**: Instantly find local apps and files using the native Windows Indexing Service.
 *   **Multi-language Support**: The UI and AI instructions automatically adapt to English, German, French, or Hungarian based on your installation choice.
 
+### 🛡️ Windows SmartScreen/Defender Warning
+Since this is a brand new, independent open-source project, Windows SmartScreen might flag the installer as an "unrecognized app". **This is completely normal.** 
+To install the app, simply click **"More info"** on the blue popup, and then click **"Run anyway"**. The complete source code is fully transparent and available here on GitHub for anyone to review!
+
 ## 📥 Installation
 
 1. Go to the [Releases](../../releases) page.
