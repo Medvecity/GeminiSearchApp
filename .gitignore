@@ -1,0 +1,24 @@
+# --- .NET / C# ALAPVETŐ FÁJLOK ---
+# Ezeket soha nem töltjük fel, mert mindenki magának fordítja le a kódból!
+bin/
+obj/
+
+# --- VISUAL STUDIO BEÁLLÍTÁSOK ---
+# A te privát géped beállításai
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+
+# --- BIZTONSÁG ---
+# Biztos ami biztos, ha véletlenül a mappában hagynál egy teszt kulcsot
+apikey.txt
+*.env
+secrets.json
+
+# --- INNO SETUP ÉS TELEPÍTŐK ---
+# A kész telepítőket sem a forráskódok közé töltjük fel
+Output/
+*Installer.exe
+*.exe

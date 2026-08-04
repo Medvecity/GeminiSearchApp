@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <!-- Az exe ikonja -->
+    <ApplicationIcon>appicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <!-- Hivatkozás a képre a XAML számára -->
+  <ItemGroup>
+    <Resource Include="appicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Ez felel az ikonok kinyeréséért a fájlokból -->
+    <PackageReference Include="System.Drawing.Common" Version="8.0.7" />
+    
+    <!-- EZ HIÁNYZOTT! Ez felel a Windows Kereső (fájlok) eléréséért -->
+    <PackageReference Include="System.Data.OleDb" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
